@@ -1,0 +1,26 @@
+Lista de comandos:
+
+Ls (sirve para listar los archivos y carpetas que se encunetren en el directorio que me encuentro)
+Pwd (indica el directorio en el que me encuentro)
+Cd (+directorio al que quiero ir) (directorioes el nombre de la carpeta, apretando solo las dos primeras letras y apretando tab se autocompleta)
+Cd .. (va para atras)
+Mkdir (+nombre que quiero poner) ((sirve para crear una nueva carpeta
+Ls -a (muestra todos los archivos y carpetas del directorio inclusive los ocultos)
+git status (muestra información detallada del estado)
+git status -s ( muestra información detallada del estado y muestra que me falta agregar)
+Git config -h (listado de configuraciones, opciones para agregar a nuestra config)
+Code . ( el punto sirve para abrir la carpeta en la que yo me encuentro en el vscode)
+Git add . (indica que se agreguen todos los archivos del directorio (es una mala practica por que quizas se llena el espacio innecesariamente)
+Git add (+nombre del archivo) indica que se agregue un solo archivo especificado
+git commit -m (+ nombre de archivo)(archivo va a fase commit)
+git commit (abre el editor de texto (vscode) y en el commit debo describir que hice, luego guardar y cerrar)
+rm (+nombre de archivo) (sirve para eliminar archivos)
+git restore -- staged (+nombre del archivo) (recupera archivo eliminado)
+mv (+nombre de archivo) (+nombre que quiero )
+git diff (especifica que lineas fueron modificadas , salir con q)
+git log (ver historial de TODOS los cambios)
+git log --oneline (muestra el historial pero mas simplificado)
+git branch  (indica en que rama trabajamos)
+git checkout -b (+nombre de la rama(sirve para crear nueva rama)(generalmente se titula un numero de ticket)
+cat (+nombre de archivo)(indica el contenido del archivo)
+git merge (+nombre de rama secundaria)
